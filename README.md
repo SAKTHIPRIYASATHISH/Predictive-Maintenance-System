@@ -32,9 +32,10 @@ Non-Functional Requirements
 
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+<img width="861" height="843" alt="image" src="https://github.com/user-attachments/assets/4d865395-54f0-4a21-a2c2-cfff6b9f1af7" />
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+
+
 
 
 ## Output
