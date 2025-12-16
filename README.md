@@ -2,7 +2,7 @@
 ## AI-Based Predictive Maintenance System for Software Systems
 
 ## About
-An **AI-Based Predictive Maintenance System for Software Systems** uses machine learning techniques to analyze system logs and performance metrics to predict potential failures before they occur. By enabling proactive maintenance, it reduces downtime, improves system reliability, and optimizes resource utilization.
+This project is an AI-powered predictive maintenance system designed to monitor software systems and predict potential failures before they occur. It analyzes system logs and performance metrics using machine learning techniques to reduce downtime and improve system reliability.
 
 
 ## Features
@@ -16,14 +16,20 @@ An **AI-Based Predictive Maintenance System for Software Systems** uses machine 
 - Scalability & Integration: Supports cloud, microservices, and enterprise environments with API integration.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Functional Requirements:
+-Collect and monitor logs and performance metrics from software systems
+-Detect anomalies and predict potential failures using ML models
+-Send alerts when abnormal behavior is detected
+-Display system status and predictions on a dashboard
+-Allow integration with existing monitoring tools via APIs
+
+Non-Functional Requirements
+-High prediction accuracy with low latency
+-Scalable to handle large volumes of monitoring data
+-Secure handling of system data
+-Reliable and continuous system operation
+-Easy-to-use interface for administrators
+
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
@@ -46,14 +52,11 @@ Note: These metrics can be customized based on your actual performance evaluatio
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The AI-based predictive maintenance system accurately predicts equipment failures before they occur, significantly reducing unplanned downtime and maintenance costs. By enabling proactive maintenance, it improves operational efficiency and extends the lifespan of equipment. Additionally, the system provides actionable and interpretable insights, helping maintenance teams make informed decisions and ensuring higher reliability and productivity.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.Mobley, R. K. An Introduction to Predictive Maintenance. Elsevier, 2002.
+2.Jardine, A. K. S., Lin, D., & Banjevic, D. “A review on machinery diagnostics and prognostics implementing condition-based maintenance.” Mechanical Systems and Signal Processing, 20(7), 2006, pp. 1483–1510.
 
 
 
